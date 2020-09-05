@@ -16,7 +16,7 @@ They use simple and natural syntax and provide formatted and colorized output.
 
 .. class:: no-web no-pdf
 
-    .. image:: https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.gif
+    .. image:: https://raw.githubusercontent.com/httpie/httpie/master/httpie.gif
         :alt: HTTPie in action
         :width: 100%
         :align: center
@@ -35,7 +35,7 @@ where you can select your corresponding HTTPie version as well as run examples d
 browser using a `termible.io <https://termible.io?utm_source=httpie-readme>`_ embedded terminal.
 If you are reading this on GitHub, then this text covers the current *development* version.
 You are invited to submit fixes and improvements to the the docs by editing
-`README.rst <https://github.com/jakubroztocil/httpie/blob/master/README.rst>`_.
+`README.rst <https://github.com/httpie/httpie/blob/master/README.rst>`_.
 
 
 Main features
@@ -58,7 +58,7 @@ Main features
 
 .. class:: no-web
 
-    .. image:: https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.png
+    .. image:: https://raw.githubusercontent.com/httpie/httpie/master/httpie.png
         :alt: HTTPie compared to cURL
         :width: 100%
         :align: center
@@ -167,11 +167,11 @@ Otherwise with ``pip``:
 
 .. code-block:: bash
 
-    $ pip install --upgrade https://github.com/jakubroztocil/httpie/archive/master.tar.gz
+    $ pip install --upgrade https://github.com/httpie/httpie/archive/master.tar.gz
 
 
 Verify that now we have the
-`current development version identifier <https://github.com/jakubroztocil/httpie/blob/master/httpie/__init__.py#L6>`_
+`current development version identifier <https://github.com/httpie/httpie/blob/master/httpie/__init__.py#L6>`_
 with the ``-dev`` suffix, for example:
 
 .. code-block:: bash
@@ -234,12 +234,12 @@ Build and print a request without sending it using `offline mode`_:
 
 
 Use `GitHub API`_ to post a comment on an
-`issue <https://github.com/jakubroztocil/httpie/issues/83>`_
+`issue <https://github.com/httpie/httpie/issues/83>`_
 with `authentication`_:
 
 .. code-block:: bash
 
-    $ http -a USERNAME POST https://api.github.com/repos/jakubroztocil/httpie/issues/83/comments body='HTTPie is awesome! :heart:'
+    $ http -a USERNAME POST https://api.github.com/repos/httpie/httpie/issues/83/comments body='HTTPie is awesome! :heart:'
 
 
 Upload a file using `redirected input`_:
@@ -1383,7 +1383,7 @@ You can even pipe web services together using HTTPie:
 
 .. code-block:: bash
 
-    $ http GET https://api.github.com/repos/jakubroztocil/httpie | http POST httpbin.org/post
+    $ http GET https://api.github.com/repos/httpie/httpie | http POST httpbin.org/post
 
 
 You can use ``cat`` to enter multiline data on the terminal:
@@ -1585,7 +1585,7 @@ is being saved to a file.
 
 .. code-block:: bash
 
-    $ http --download https://github.com/jakubroztocil/httpie/archive/master.tar.gz
+    $ http --download https://github.com/httpie/httpie/archive/master.tar.gz
 
 .. code-block:: http
 
@@ -1627,7 +1627,7 @@ headers and progress are still shown in the terminal:
 
 .. code-block:: bash
 
-    $ http -d https://github.com/jakubroztocil/httpie/archive/master.tar.gz |  tar zxf -
+    $ http -d https://github.com/httpie/httpie/archive/master.tar.gz |  tar zxf -
 
 
 
@@ -2054,7 +2054,7 @@ User support
 
 Please use the following support channels:
 
-* `GitHub issues <https://github.com/jkbr/httpie/issues>`_
+* `GitHub issues <https://github.com/httpie/httpie/issues>`_
   for bug reports and feature requests.
 * `Our Gitter chat room <https://gitter.im/jkbrzt/httpie>`_
   to ask questions, discuss features, and for general discussion.
@@ -2099,7 +2099,7 @@ Helpers to convert from other client tools:
 Alternatives
 ~~~~~~~~~~~~
 
-* `httpcat <https://github.com/jakubroztocil/httpcat>`_ — a lower-level sister utility
+* `httpcat <https://github.com/httpie/httpcat>`_ — a lower-level sister utility
   of HTTPie for constructing raw HTTP requests on the command line.
 * `curl <https://curl.haxx.se>`_ — a "Swiss knife" command line tool and
   an exceptional library for transferring data with URLs.
@@ -2108,27 +2108,27 @@ Alternatives
 Contributing
 ------------
 
-See `CONTRIBUTING.rst <https://github.com/jakubroztocil/httpie/blob/master/CONTRIBUTING.rst>`_.
+See `CONTRIBUTING.rst <https://github.com/httpie/httpie/blob/master/CONTRIBUTING.rst>`_.
 
 
 Change log
 ----------
 
-See `CHANGELOG <https://github.com/jakubroztocil/httpie/blob/master/CHANGELOG.rst>`_.
+See `CHANGELOG <https://github.com/httpie/httpie/blob/master/CHANGELOG.rst>`_.
 
 
 Artwork
 -------
 
 * `Logo <https://github.com/claudiatd/httpie-artwork>`_ by `Cláudia Delgado <https://github.com/claudiatd>`_.
-* `Animation <https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.gif>`_ by `Allen Smith <https://github.com/loranallensmith>`_ of GitHub.
+* `Animation <https://raw.githubusercontent.com/httpie/httpie/master/httpie.gif>`_ by `Allen Smith <https://github.com/loranallensmith>`_ of GitHub.
 
 
 
 Licence
 -------
 
-BSD-3-Clause: `LICENSE <https://github.com/jakubroztocil/httpie/blob/master/LICENSE>`_.
+BSD-3-Clause: `LICENSE <https://github.com/httpie/httpie/blob/master/LICENSE>`_.
 
 
 
@@ -2141,7 +2141,7 @@ have contributed.
 
 .. _pip: https://pip.pypa.io/en/stable/installing/
 .. _GitHub API: https://developer.github.com/v3/issues/comments/#create-a-comment
-.. _these fine people: https://github.com/jakubroztocil/httpie/contributors
+.. _these fine people: https://github.com/httpie/httpie/contributors
 .. _Jakub Roztocil: https://roztocil.co
 .. _@jakubroztocil: https://twitter.com/jakubroztocil
 
@@ -2154,12 +2154,12 @@ have contributed.
     :target: https://pypi.python.org/pypi/httpie
     :alt: Latest version released on PyPi
 
-.. |coverage| image:: https://img.shields.io/codecov/c/github/jakubroztocil/httpie?style=flat-square
-    :target: https://codecov.io/gh/jakubroztocil/httpie
+.. |coverage| image:: https://img.shields.io/codecov/c/github/httpie/httpie?style=flat-square
+    :target: https://codecov.io/gh/httpie/httpie
     :alt: Test coverage
 
-.. |build| image:: https://github.com/jakubroztocil/httpie/workflows/Build/badge.svg
-    :target: https://github.com/jakubroztocil/httpie/actions
+.. |build| image:: https://github.com/httpie/httpie/workflows/Build/badge.svg
+    :target: https://github.com/httpie/httpie/actions
     :alt: Build status of the master branch on Mac/Linux/Windows
 
 .. |gitter| image:: https://img.shields.io/gitter/room/jkbrzt/httpie.svg?style=flat-square
