@@ -72,7 +72,7 @@ setup(
     description=httpie.__doc__.strip(),
     long_description=long_description(),
     url='https://httpie.org/',
-    download_url=f'https://github.com/jakubroztocil/httpie/archive/{httpie.__version__}.tar.gz',
+    download_url=f'https://github.com/httpie/httpie/archive/{httpie.__version__}.tar.gz',
     author=httpie.__author__,
     author_email='jakub@roztocil.co',
     license=httpie.__licence__,
@@ -105,7 +105,7 @@ setup(
     ],
     project_urls={
         'Documentation': 'https://httpie.org/docs',
-        'Source': 'https://github.com/jakubroztocil/httpie',
+        'Source': 'https://github.com/httpie/httpie',
         'Online Demo': 'https://httpie.org/run',
         'Donate': 'https://httpie.org/donate',
         'Twitter': 'https://twitter.com/clihttp',
