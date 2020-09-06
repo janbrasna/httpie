@@ -415,7 +415,7 @@ This project adheres to `Semantic Versioning <https://semver.org/>`_.
 * Initial public release
 
 
-.. _`0.1.0`: https://github.com/jakubroztocil/httpie/commit/b966efa
+.. _0.1.0: https://github.com/jakubroztocil/httpie/commit/b966efa
 .. _0.1.4: https://github.com/jakubroztocil/httpie/compare/b966efa...0.1.4
 .. _0.1.5: https://github.com/jakubroztocil/httpie/compare/0.1.4...0.1.5
 .. _0.1.6: https://github.com/jakubroztocil/httpie/compare/0.1.5...0.1.6
@@ -441,30 +441,30 @@ This project adheres to `Semantic Versioning <https://semver.org/>`_.
 .. _0.9.6: https://github.com/jakubroztocil/httpie/compare/0.9.4...0.9.6
 .. _0.9.8: https://github.com/jakubroztocil/httpie/compare/0.9.6...0.9.8
 .. _0.9.9: https://github.com/jakubroztocil/httpie/compare/0.9.8...0.9.9
-.. _1.0.0: https://github.com/jakubroztocil/httpie/compare/0.9.9...1.0.0
-.. _1.0.1: https://github.com/jakubroztocil/httpie/compare/1.0.0...1.0.1
-.. _1.0.2: https://github.com/jakubroztocil/httpie/compare/1.0.1...1.0.2
-.. _1.0.3: https://github.com/jakubroztocil/httpie/compare/1.0.2...1.0.3
-.. _2.0.0: https://github.com/jakubroztocil/httpie/compare/1.0.3...2.0.0
-.. _2.1.0: https://github.com/jakubroztocil/httpie/compare/2.0.0...2.1.0
-.. _2.2.0: https://github.com/jakubroztocil/httpie/compare/2.1.0...2.2.0
-.. _2.3.0-dev: https://github.com/jakubroztocil/httpie/compare/2.2.0...master
+.. _1.0.0: https://github.com/httpie/httpie/compare/0.9.9...1.0.0
+.. _1.0.1: https://github.com/httpie/httpie/compare/1.0.0...1.0.1
+.. _1.0.2: https://github.com/httpie/httpie/compare/1.0.1...1.0.2
+.. _1.0.3: https://github.com/httpie/httpie/compare/1.0.2...1.0.3
+.. _2.0.0: https://github.com/httpie/httpie/compare/1.0.3...2.0.0
+.. _2.1.0: https://github.com/httpie/httpie/compare/2.0.0...2.1.0
+.. _2.2.0: https://github.com/httpie/httpie/compare/2.1.0...2.2.0
+.. _2.3.0-dev: https://github.com/httpie/httpie/compare/2.2.0...master
 
 
-.. _#128: https://github.com/jakubroztocil/httpie/issues/128
-.. _#488: https://github.com/jakubroztocil/httpie/issues/488
-.. _#668: https://github.com/jakubroztocil/httpie/issues/668
-.. _#684: https://github.com/jakubroztocil/httpie/issues/684
-.. _#718: https://github.com/jakubroztocil/httpie/issues/718
-.. _#719: https://github.com/jakubroztocil/httpie/issues/719
-.. _#840: https://github.com/jakubroztocil/httpie/issues/840
-.. _#853: https://github.com/jakubroztocil/httpie/issues/853
-.. _#852: https://github.com/jakubroztocil/httpie/issues/852
-.. _#870: https://github.com/jakubroztocil/httpie/issues/870
-.. _#895: https://github.com/jakubroztocil/httpie/issues/895
-.. _#920: https://github.com/jakubroztocil/httpie/issues/920
-.. _#904: https://github.com/jakubroztocil/httpie/issues/904
-.. _#925: https://github.com/jakubroztocil/httpie/issues/925
-.. _#932: https://github.com/jakubroztocil/httpie/issues/932
-.. _#934: https://github.com/jakubroztocil/httpie/issues/934
-.. _#943: https://github.com/jakubroztocil/httpie/issues/943
+.. _#128: https://github.com/httpie/httpie/issues/128
+.. _#488: https://github.com/httpie/httpie/issues/488
+.. _#668: https://github.com/httpie/httpie/issues/668
+.. _#684: https://github.com/httpie/httpie/issues/684
+.. _#718: https://github.com/httpie/httpie/issues/718
+.. _#719: https://github.com/httpie/httpie/issues/719
+.. _#840: https://github.com/httpie/httpie/issues/840
+.. _#853: https://github.com/httpie/httpie/issues/853
+.. _#852: https://github.com/httpie/httpie/issues/852
+.. _#870: https://github.com/httpie/httpie/issues/870
+.. _#895: https://github.com/httpie/httpie/issues/895
+.. _#920: https://github.com/httpie/httpie/issues/920
+.. _#904: https://github.com/httpie/httpie/issues/904
+.. _#925: https://github.com/httpie/httpie/issues/925
+.. _#932: https://github.com/httpie/httpie/issues/932
+.. _#934: https://github.com/httpie/httpie/issues/934
+.. _#943: https://github.com/httpie/httpie/issues/943
