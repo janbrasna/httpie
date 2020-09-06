@@ -2043,9 +2043,8 @@ The two modes, ``--pretty=all`` (default for terminal) and ``--pretty=none``
 and usage from scripts, where HTTPie serves as a generic HTTP client.
 
 As HTTPie is still under heavy development, the existing command line
-syntax and some of the ``--OPTIONS`` may change slightly before
-HTTPie reaches its final version ``1.0``. All changes are recorded in the
-`change log`_.
+syntax and some of the ``--OPTIONS`` may change slightly between major versions.
+All changes are recorded in the `change log`_.
 
 
 
